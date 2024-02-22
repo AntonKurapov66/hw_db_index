@@ -17,6 +17,8 @@
 ### Задание 2
 *  Выполните explain analyze следующего запроса:
 ![alt text](https://github.com/AntonKurapov66/hw_db_index/blob/main/img/2.PNG)
+
+![alt text](https://github.com/AntonKurapov66/hw_db_index/blob/main/img/4.PNG)
   *  перечислите узкие места:
     *    Отсутствие индексов отсутствие условий объединения таблиц с помощью JOIN. 
     *    Не используется GROUP BY из-за этого могут появится недостоверные данные.
@@ -36,3 +38,4 @@
       WHERE DATE(p.payment_date) = '2005-07-30'
       GROUP BY FI;
 ```
+![alt text](https://github.com/AntonKurapov66/hw_db_index/blob/main/img/5.PNG)
